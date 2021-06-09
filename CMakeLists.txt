@@ -15,3 +15,4 @@ add_executable(testst test.cpp)
 target_compile_options(testst PRIVATE --coverage)
 target_link_libraries(testst PRIVATE --coverage gtest gtest_main)
 add_test( testst testst )
+
